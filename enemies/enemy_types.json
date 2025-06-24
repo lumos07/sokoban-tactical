@@ -1,0 +1,21 @@
+[
+    {
+      "type": "grunt",
+      "health": 20,
+      "damage": 5,
+      "vision_range": 2
+    },
+    {
+      "type": "brute",
+      "health": 40,
+      "damage": 15,
+      "vision_range": 3
+    },
+    {
+      "type": "boss",
+      "health": 100,
+      "damage": 30,
+      "vision_range": 5
+    }
+  ]
+  
