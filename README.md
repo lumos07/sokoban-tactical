@@ -1,36 +1,35 @@
-# 🧠 Sokoban Tactical Edition
+# Sokoban Tactical Edition
 
-A tactical twist on the classic Sokoban puzzle game — now with enemy AI, health, and collectible rewards. Navigate the grid, push boxes to goals, avoid enemies, and survive!
-
----
-
-## 🎮 Gameplay Features
-
-- 👾 **Enemy Types**: 
-  - **Grunt** (short vision, light damage)
-  - **Brute** (mid-range, stronger hit)
-  - **Boss** (wide vision, massive damage)
-  
-- 🎯 **Objectives**:
-  - Push `$` boxes onto `.` goal tiles
-  - Survive enemies and burn damage
-  - Win when all boxes are placed correctly
-
-- 🧠 **Player Mechanics**:
-  - Health, Shield, Burn Timer
-  - Rewards: health packs, shields, extra lives
-  - Attack adjacent enemies with `A`
-
--  **Ideas for Future Work**:
-  - More levels and level selector
-  - Smarter enemy pathfinding
-  - Powerups, portals, traps
-  - Leaderboard or scoring system
-  - Player finding the minimum damage or least time taking path to complete level 
+A tactical twist on the classic Sokoban puzzle game — now enhanced with enemy AI, health management, and collectible rewards! Solve puzzles by pushing boxes onto goals while surviving attacks from smart enemies.
 
 ---
 
-## 🚀 Run the Game
+## Gameplay Features
 
+### Enemy Types
+Each enemy has unique characteristics:
+- **Grunt**: Small vision range, low damage
+- **Brute**: Medium range, moderate damage
+- **Boss**: High vision range, deadly damage
+
+### Objectives
+- Push all `$` **boxes** onto `.` **goal tiles**
+- Survive enemies and environmental hazards
+- Win the level when **all boxes are correctly placed**
+
+### Player Mechanics
+- `@` represents the **player**
+- Health , Shield , and Burn Timer 
+- Collect `R` **rewards** (Health, Shield, Extra Life)
+- Use `A` to **attack enemies** adjacent to you
+
+---
+
+## How to Run the Game
+
+### Requirements
+- Python 3.x (no external libraries needed)
+
+### Run Locally
 ```bash
 python main.py
