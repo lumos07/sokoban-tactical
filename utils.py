@@ -1,4 +1,3 @@
-# utils.py
 
 def is_walkable_for_enemy(tile):
     """
